@@ -1,0 +1,18 @@
+
+ h2{margin-bottom: 20px;}
+#scrolltable {
+  margin-top: 20px;
+  height: 250px;
+  margin-left: 15px;
+  margin-right: 15px;
+  overflow: auto;
+  /*width: 460px;*/
+}
+
+#scrolltable table {
+  border-collapse: collapse;
+}
+
+#scrolltable tr:nth-child(even) {
+  background: rgba(179, 179, 179, 0.89);
+}
